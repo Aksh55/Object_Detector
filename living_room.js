@@ -1,3 +1,4 @@
+status = "";
 function preload()
 {
     img = loadImage('living.jpg');
@@ -18,6 +19,11 @@ function modelLoaded()
 function draw()
 {
     image(img , 0 , 0 , 640 , 420);
+}
+
+function gotResult()
+{
+    console.log(results);
 }
 
 function back()

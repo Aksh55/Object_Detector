@@ -1,3 +1,4 @@
+status = "";
 function preload()
 {
     img = loadImage('hallway.jpg');
@@ -23,4 +24,9 @@ function draw()
 function back()
 {
     window.location = "index.html";
+}
+
+function gotResult()
+{
+    console.log(results);
 }
